@@ -16,6 +16,7 @@
 		0603C2031BB6F03C003237FC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603C2021BB6F03C003237FC /* Item.swift */; settings = {ASSET_TAGS = (); }; };
 		0603C2051BB6F1EA003237FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603C2041BB6F1EA003237FC /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		0603C2071BB6F242003237FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0603C2061BB6F242003237FC /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		0603C2811BB70D7E003237FC /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603C2801BB70D7E003237FC /* MealsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0603C2021BB6F03C003237FC /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		0603C2041BB6F1EA003237FC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0603C2061BB6F242003237FC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0603C2801BB70D7E003237FC /* MealsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				0603C2041BB6F1EA003237FC /* ViewController.swift */,
+				0603C2801BB70D7E003237FC /* MealsTableViewController.swift */,
 			);
 			name = viewcontrollers;
 			path = models/viewcontrollers;
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0603C2811BB70D7E003237FC /* MealsTableViewController.swift in Sources */,
 				0603C2031BB6F03C003237FC /* Item.swift in Sources */,
 				0603C2011BB6F02B003237FC /* Meal.swift in Sources */,
 				0603C2051BB6F1EA003237FC /* ViewController.swift in Sources */,
