@@ -77,6 +77,7 @@
 		0603C1C21BB6CF13003237FC = {
 			isa = PBXGroup;
 			children = (
+				0603C1FC1BB6EF02003237FC /* models */,
 				0603C1CD1BB6CF13003237FC /* eggplant-brownie */,
 				0603C1E21BB6CF13003237FC /* eggplant-brownieTests */,
 				0603C1ED1BB6CF13003237FC /* eggplant-brownieUITests */,
@@ -123,6 +124,13 @@
 				0603C1F01BB6CF13003237FC /* Info.plist */,
 			);
 			path = "eggplant-brownieUITests";
+			sourceTree = "<group>";
+		};
+		0603C1FC1BB6EF02003237FC /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
