@@ -8,7 +8,43 @@
 
 import UIKit
 
+
+
 class NewItemViewController: UIViewController {
+    
+    var delegate: AddAnItemDelegate?
+    init(delegate: AddAnItemDelegate) {
+    
+    super.init(nibName: "NewItemViewController", bundle: nil)
+        self.delegate = delegate
+    }
+    required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    }
+    
+    
+    @IBOutlet var nameField:UITextField?
+    @IBOutlet var caloriesField:UITextField?
+    
+    @IBAction func addNewItem() {
+        if nameField == nil || caloriesField == nil {
+        return }
+        
+        let name = nameField!.text
+        let calories = Double(caloriesField!.text!)
+        let item = Item(name: name!, calories: calories!)
+        
+        if delegate == nil {
+        return
+        }
+        delegate!.addNew(item)
+        
+        if let navigation = navigationController{
+            navigation.popViewControllerAnimated(true)
+        }
+        
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
